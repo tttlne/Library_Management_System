@@ -21,7 +21,7 @@ root.title("Library")
 root.geometry("725x375")
 
 # Load the background image
-background_image = Image.open("image/Library.jpg")  # Update this path
+background_image = Image.open("image/Library.jpg").resize((725,375))  # Update this path
 bg_img = ImageTk.PhotoImage(background_image)
 
 # Create a Label widget to display the background image
