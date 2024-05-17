@@ -33,7 +33,7 @@ def addBook():
     root = Tk()
     root.title("Library")
     root.minsize(width=400,height=400)
-    root.geometry("600x400")
+    root.geometry("600x500")
 
     # Add your own database name and password here to reflect in the code
     mypass = ""
@@ -47,7 +47,7 @@ def addBook():
 
     Canvas1 = Canvas(root)
     
-    Canvas1.config(bg="#ccbea5")
+    Canvas1.config(bg="#D6ED17")
     Canvas1.pack(expand=True,fill=BOTH)
         
     headingFrame1 = Frame(root,bg="#FFBB00",bd=5)
