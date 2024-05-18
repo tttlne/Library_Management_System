@@ -34,15 +34,15 @@ def login():
     # Gắn sự kiện đóng cửa sổ với hàm on_closing
     root.protocol("WM_DELETE_WINDOW", lambda: on_closing(root))
     
-    Label(root, text="Username").pack(pady=10)
+    Label(root, text="Username", font=('Times New Roman',15)).pack(pady=10)
     username_entry = Entry(root)
     username_entry.pack(pady=10)
     
-    Label(root, text="Password").pack(pady=10)
+    Label(root, text="Password", font=('Times New Roman',15)).pack(pady=10)
     password_entry = Entry(root, show="*")
     password_entry.pack(pady=10)
     
-    Button(root, text="Login", command=lambda: check_login(username_entry.get(), password_entry.get(), root)).pack(pady=20)
+    Button(root, text="Login", font=('Times New Roman',15), command=lambda: check_login(username_entry.get(), password_entry.get(), root)).pack(pady=20)
     
     root.mainloop()
 
