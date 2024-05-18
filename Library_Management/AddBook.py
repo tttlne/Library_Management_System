@@ -1,10 +1,10 @@
 from tkinter import *
 from PIL import ImageTk,Image
 from tkinter import messagebox
-import pymysql
+from connect_database import connect_to_database
 
 def bookRegister():
-        
+    con, cur = connect_to_database()    
     bid = bookInfo1.get()
     title = bookInfo2.get()
     author = bookInfo3.get()
