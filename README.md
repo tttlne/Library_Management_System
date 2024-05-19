@@ -21,9 +21,9 @@
 
 [V. Tính năng](#T)
 
-[IV. Cách cài đặt và chạy](#C)
+[VI. Cách cài đặt và chạy](#C)
 
-[IV. Báo cáo](#B)
+[VII. Báo cáo](#B)
 
 <a name = "Muc"></a>
 # Mục đích
