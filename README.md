@@ -74,7 +74,30 @@ Nguyễn Thị Mai hoàn thành việc cập nhật trạng thái sách một c�
 
 <a name = "C"></a>
 # Cách cài đặt và chạy
-
+tạo 1 data base db gồm 3 table
++--------------+
+| Tables_in_db |
++--------------+
+| books        |
+| books_issued |
+| users        |
++--------------+
+CREATE TABLE books (
+    bid VARCHAR(10) PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
+    status VARCHAR(20) NOT NULL
+);
+CREATE TABLE books_issued (
+    bid VARCHAR(10) NOT NULL,
+    issuedto VARCHAR(255) NOT NULL,
+    PRIMARY KEY (bid)
+);
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
 <a name = "B"></a>
 # Báo cáo
 
