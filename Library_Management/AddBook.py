@@ -35,13 +35,6 @@ def addBook():
     root.minsize(width=400,height=400)
     root.geometry("600x500")
 
-    # Add your own database name and password here to reflect in the code
-    mypass = ""
-    mydatabase=""
-
-    con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
-    cur = con.cursor()
-
     # Enter Table Names here
     bookTable = "books" # Book Table
 
@@ -82,7 +75,7 @@ def addBook():
     bookInfo3.place(relx=0.3,rely=0.50, relwidth=0.62, relheight=0.08)
         
     # Book Status
-    lb4 = Label(labelFrame,text="Status(Avail/issued): ", bg='black', fg='white', font=('Times New Roman',15))
+    lb4 = Label(labelFrame,text="Status: ", bg='black', fg='white', font=('Times New Roman',15))
     lb4.place(relx=0.05,rely=0.65, relheight=0.08)
         
     bookInfo4 = Entry(labelFrame)
