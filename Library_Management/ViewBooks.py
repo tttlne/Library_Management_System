@@ -31,7 +31,7 @@ def View():
     labelFrame.place(relx=0.1,rely=0.3,relwidth=0.8,relheight=0.5)
     y = 0.25
     
-    Label(labelFrame, text="%-10s%-40s%-30s%-20s"%('BID','Title','Author','Status'),bg='black',fg='white', font=('Times New Roman',15)).place(relx=0.07,rely=0.1)
+    Label(labelFrame, text="%-10s%-30s%-30s%-20s"%('BID','Title','Author','Status'),bg='black',fg='white', font=('Times New Roman',15)).place(relx=0.07,rely=0.1)
     Label(labelFrame, text="----------------------------------------------------------------------------",bg='black',fg='white').place(relx=0.05,rely=0.2)
     getBooks = "select * from "+bookTable
     try:
