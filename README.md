@@ -74,6 +74,7 @@ Nguyễn Thị Mai hoàn thành việc cập nhật trạng thái sách một c�
 
 <a name = "C"></a>
 # Cách cài đặt và chạy
+cài đặt phần mềm MySQL 
 tạo 1 data base db gồm 3 table
 +--------------+
 | Tables_in_db |
@@ -102,7 +103,7 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL
 );
 <a name = "B"></a>
-# Báo cáo
-
+# Báo cáo và video demo phần mềm
+https://drive.google.com/drive/folders/1-8X72Dq3eyKJplSqhr9C0zEwGf8vzqSM?usp=drive_link
 
 
